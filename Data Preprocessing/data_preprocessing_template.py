@@ -4,7 +4,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
+os.chdir("/Users/amjamalzadeh/Documents/aipoweredcapital/MachineLearning-A-Z/Data Preprocessing")
 # Importing the dataset
 dataset = pd.read_csv('Data.csv')
 X = dataset.iloc[:, :-1].values
